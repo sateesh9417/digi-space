@@ -1,0 +1,17 @@
+.main-count p{
+    color: var(--blue);
+ }
+ sup{
+     color: #fff;
+     background-color: var(--light-green);
+     border-radius: 5px;
+     padding: 6px 6px 3px 6px;
+     font-size: 1rem;
+ }
+ .values div:first-child{
+     padding-bottom: 0.3rem;
+ }
+ 
+ .values {
+     width: 35%;
+ }

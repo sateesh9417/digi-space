@@ -1,0 +1,19 @@
+.main-count p{
+    background-color: var(--light-green);
+}
+
+.values div:first-child{
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid rgba(100, 100, 100, 0.4);
+}
+.values i{
+    position: relative;
+    bottom: 5px;
+    font-size: 1.4rem;
+}
+.bi-arrow-up{
+    color: var(--light-green);
+}
+.bi-arrow-down{
+    color: orange;
+}

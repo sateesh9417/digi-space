@@ -1,0 +1,25 @@
+.digi-space-container {
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 230px;
+    margin: 3rem 0;
+}
+
+.components {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.component {
+    width: 24%;
+    /* text-align: center; */
+}

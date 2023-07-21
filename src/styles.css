@@ -1,0 +1,80 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Rota-Black";
+    src: url("./assets/font-style/Rota-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Rota-Bold";
+    src: url("./assets/font-style/Rota-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Rota-Medium";
+    src: url("./assets/font-style/Rota-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Rota-Regular";
+    src: url("./assets/font-style/Rota-Regular.otf") format("opentype");
+}
+
+.title {
+    font-size: 1.7rem;
+    color: rgba(0,0,0,0.7);
+    font-family: 'Rota-Black', sans-serif;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+.main-count p{
+    border-radius: 50%;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    margin:0.3rem 0 0 0 !important;
+    font-size: 3.6rem;
+    font-family: 'Rota-Black', sans-serif;
+    height: 65px;
+    width: 65px;
+}
+
+.card{
+    background-color: rgba(100, 100, 100, 0.1);
+    border-radius: 15px;
+    padding: 1.3rem;
+    height: 148px;
+}
+.measurement{
+    display: table;
+    width: 100%;
+}
+.values{
+    display: table-cell;
+    vertical-align: middle;
+    width: 55%;
+}
+.values span{
+    font-size: 2.4rem;
+    font-family: 'Rota-Black';
+    color: rgba(100, 100, 100, 0.7);
+}
+.values div:first-child{
+    padding-bottom: 0.3rem;
+}
+.values div:last-child{
+    padding-top: 0.7rem;
+}
+
+sub,sup{
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 10px;
+}
+
+:root {
+    --blue: #5448C8;
+    --light-green: #6DD0A5;
+    --dark: #2D2D2D;
+    --light-grey: #999999;
+}
